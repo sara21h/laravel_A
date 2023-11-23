@@ -7,9 +7,14 @@ Route::get('/', function () {
     $task1 = new stdClass();
     $task1->id = 1;
     $task1->title = "task 1";
+    $task1->description = 'kk';
+    $task1->completed = 1;
     $tasks = [
         $task1
     ];
+    return view('tasks', [
+        'tasks' => $tasks
+    ]);
 });
 
 Route::get('/tasks', function () {
