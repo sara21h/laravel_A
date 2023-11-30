@@ -1,27 +1,14 @@
 <?php
 
+
+use App\Http\Controllers\TaskController;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
-    $task1 = new stdClass();
-    $task1->id = 1;
-    $task1->title = "task 1";
-    $task1->description = 'kk';
-    $task1->completed = 1;
-    $tasks = [
-        $task1
-    ];
-    return view('tasks', [
-        'tasks' => $tasks
-    ]);
-});
+Route::get('/', [TaskController::class,'index']);
 
-Route::get('/tasks', function () {
-    return view('tasks',[
-        'tasks' => []
-    ]);
-});
+Route::get('/tasks', [TaskController::class,'index']);
 
 Route::get('/contact', function () {
     return view('contact');
@@ -33,6 +20,6 @@ Route::get('/about', function () {
 
 Route::get('/users', function () {
     return view('users',[
-        'users' => []
+        'users' => User::all()
     ]);
 });
