@@ -10,7 +10,7 @@
             </div>
             <div class="bg-white pb-20 pt-12 h-full bg-gray-100">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div class="px-4 sm:px-6 lg:px-8">
+                    <div class="px-2">
                         <div class="sm:flex sm:items-center">
                             <div class="sm:flex-auto">
                                 <p class=" text-sm text-gray-700">Llista amb usuaris i informació. </p>

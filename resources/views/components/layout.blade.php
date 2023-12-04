@@ -13,7 +13,7 @@
 </head>
 <body class="h-full">
 
-<nav class="bg-gray-400 rounded-full mt-2">
+<nav class="bg-gray-400 rounded mt-1">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">

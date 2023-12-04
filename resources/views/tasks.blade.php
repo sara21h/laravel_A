@@ -12,11 +12,15 @@
             </div>
             <div class="bg-white pb-20 pt-12 h-full bg-gray-100">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div class="px-4 sm:px-6 lg:px-8">
+                    <div class="pr-4">
                         <div class="sm:flex sm:items-center">
                             <div class="sm:flex-auto">
                                 <p class="text-sm text-gray-700">Llista amb les tasques dels usuaris. </p>
                             </div>
+                            <div class="sm:flex-none mt-4 sm:mt-0">
+                                <a href="/crearTasques" class="bg-green-500 text-white font-semibold text-xs px-2.5 py-2.5 rounded-full">Afegir tasca</a>
+                            </div>
+                        </div>
                         </div>
                         <div class="mt-8 flow-root">
                             <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
