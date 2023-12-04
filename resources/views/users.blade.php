@@ -1,19 +1,19 @@
 <x-layout>
     <div class="min-h-full">
         <header class="bg-white shadow">
-            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
             </div>
         </header>
         <main>
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <h1 class="text-3xl font-bold leading-tight tracking-tight text-gray-900">Usuaris</h1>
+                <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900">USUARIS</h1>
             </div>
-            <div class="bg-white py-23 sm:py-20 h-full bg-gray-100">
+            <div class="bg-white pb-20 pt-12 h-full bg-gray-100">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                     <div class="px-4 sm:px-6 lg:px-8">
                         <div class="sm:flex sm:items-center">
                             <div class="sm:flex-auto">
-                                <p class=" text-base text-gray-700">Llista amb usuaris i informació. </p>
+                                <p class=" text-sm text-gray-700">Llista amb usuaris i informació. </p>
                             </div>
                         </div>
                         <div class="mt-8 flow-root">
@@ -22,9 +22,9 @@
                                     <table class="min-w-full divide-y divide-gray-300">
                                         <thead>
                                         <tr>
-                                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Id</th>
-                                            <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Name</th>
-                                            <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
+                                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-green-700 sm:pl-0">Id</th>
+                                            <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-green-700">Name</th>
+                                            <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-green-700">Email</th>
                                         </tr>
                                         </thead>
                                         <tbody class="divide-y divide-gray-200">
