@@ -18,5 +18,4 @@ Route::get('/about', [PagesController::class,'about']);
 
 Route::get('/users', [UserController::class,'index']);
 
-Route::get('/crearTasques', [CreateTaskController::class, 'crearTasques'])->name('crear.tasques');
 

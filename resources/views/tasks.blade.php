@@ -17,9 +17,6 @@
                             <div class="sm:flex-auto">
                                 <p class="text-sm text-gray-700">Llista amb les tasques dels usuaris. </p>
                             </div>
-                            <div class="sm:flex-none mt-4 sm:mt-0">
-                                <a href="/crearTasques" class="bg-green-500 text-white font-semibold text-xs px-2.5 py-2.5 rounded-full">Afegir tasca</a>
-                            </div>
                         </div>
                         </div>
                         <div class="mt-8 flow-root">
